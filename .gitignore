@@ -1,3 +1,6 @@
+# Config for Env Variables
+config
+
 # Logs
 logs
 *.log
