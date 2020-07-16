@@ -17,6 +17,13 @@ const port = process.env.PORT
     5) npm run dev
 */
 
+app.get('/', async (req, res) => {
+    res.send({
+        message: 'Welcome to Task App, to use it, visit the github link for instructions',
+        github: 'https://github.com/tusharguliany/task-app'
+    })
+})
+
 app.listen(port, () => {
     console.log(`Server is up on Port ${port}`)
 })
