@@ -13,8 +13,8 @@ task app created in udemy nodejs course
     3. **JWT_SECRET**=<< your secret key for json web token, it can be anything like 'hey i am doing it' >>
     4. **MONGO_DB_URL**=<< your connection string to mongodb server and database name e.g. mongodb://127.0.0.1:27017/<yourDBName> >>
 4. Set the Environment Variables in your **hosting**, I use **heroku** and the way to set is :
-    > `heroku config:set key=value`
-    > You can check if it worked or not by :
+    > `heroku config:set key=value`\
+    You can check if it worked or not by :\
     > `heroku config`
 5. Run the following command in the **root** of your directory: 
     `npm run dev`
